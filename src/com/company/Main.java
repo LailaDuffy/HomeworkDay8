@@ -23,7 +23,7 @@ public class Main {
 
         System.out.print("Please choose an operation from the list above: ");
         userInput.nextLine();
-        char userOption = (char) userInput.nextInt();
+        char userOption = userInput.next().charAt(0);
 
         switch (userOption) {
             case '+':
